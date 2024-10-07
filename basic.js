@@ -8,8 +8,8 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Ejercicio 1: Imprime en la consola "Bienvenida al bootcamp de FemCoders de Factoría F5" y mira en tu navegador si sale el resultado.
 
-//Escribe tu código aquí
-
+//Escribe tu código aquí:
+console.log("Bienvenida al bootcamp de FemCoders de Factoría F5")
 
 
 
@@ -17,34 +17,53 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 //Ejercicio 2: Crea una variable por los siguientes tipos de dato: string, number, boolean, null, undefined, object, array e imprímelos en la consola.
 
 //Escribe tu código aquí
+let nombre ="Sergi Asins"
+console.log(nombre)
 
+let number = 25
+console.log(number)
 
+let mayorEdad = true
+console.log(mayorEdad)
 
+let empty = null
+console.log(empty)
+
+let noDefinido = undefined
+console.log(noDefinido)
+
+let pet = {
+    animal: "perro",
+    edad: 2,
+    owner: nombre
+}
+console.log(pet)
+
+let fruits = ["apple", "pineapple", "strawberry"]
+console.log(fruits)
 
 //Ejercicio 3: Crea una constante llamada postres con un tipo de dato array que contiene los siguientes elementos: helado, tarta, pastel e imprímelo en la consola. 
+//Escribe tu código aquí:
 
-//Escribe tu código aquí
-
-
-
+const postres = ["helado", "tarta", "pastel"]
+console.log(postres)
 
 //Ejercicio 4: Crea una constante con un tipo de dato objeto llamado coder que contengan dos propiedades, nombre y edad e imprímelo en la consola.
-
 //Escribe tu código aquí
-
-
-
+const coder = {
+    nombre: "Sergi",
+    edad: 31
+}
+console.log(coder)
 
 //Ejercicio 5: Busca como imprimir en consola el tipo de dato de cada variable que hemos creado.
-
 //Escribe tu código aquí
-
+console.log()
 
 
 
 //OPERADORES ARITMÉTICOS
 //Ejercicio 6: Crea una varible que sume 2 números e imprime el resultado en consola.
-
 //Escribe tu código aquí
 
 
